@@ -5,116 +5,110 @@
 	
 	<link rel="stylesheet" href="LibraryStyles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<script type="text/javascript">
-
-
-		/*click on the icon humburger */
-		function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-		    x.className += " responsive";
-		  } else {
-		    x.className = "topnav";
-		  }
-		}
-
-
-
-	</script>
-
-	<style  type="text/css">
-
-		
-
-
-
-
-	</style>
 </head>
 
 <body>
 
-	<div class="styleSocial">
 
-		<img src="Images/facebook.png">
-		<img src="Images/instagram.png">
-		<img src="Images/twitter.png">
-		
+	<header>
+		<div class="styleSocial">
+			<img src="Images/facebook.png">
+			<img src="Images/instagram.png">
+			<img src="Images/twitter.png">
+		</div>
+
+		<div class="styleSearch">
+            <div class="library-name">
+                <h1>Fremantle City Library</h1>
+            </div>
+        </div>
+
+		<div class="bottom-bar">
+            <nav>
+                <ul>
+                    <li><a href="FremantleLibrary.html">Home</a></li>
+                    <li><a href="BookList.html">Book List</a></li>
+                    <li><a href="AboutUs.html">About US</a></li>
+                    <li><a href="ContactUs.html">Contact US</a></li>
+                </ul>
+            </nav>
+            <div class="search-login">
+                <input type="text" placeholder="Search...">
+                <button type="button"><img src="Images/search.png" alt="Search"></button>
+                <a href="Login.html"><img src="Images/account.png" alt="User"></a>
+            </div>
+        </div>
+	</header>
+
+
+
+	<div class="styleBackground">
+		<div class ="im">
+
+
+			<a href="BookDetails.html"><img class = "styleImagesBook"src="Images/H1.jpg"></a>
+			<a href="BookDetails2.html"><img class = "styleImagesBook"src="Images/H2.jpg"></a>
+			<a href="BookDetails3.html"><img class = "styleImagesBook"src="Images/H3.jpg"></a>
+			<a href="BookDetails4.html"><img class = "styleImagesBook"src="Images/H4.jpg"></a>
+			<a href="BookDetails5.html"><img class = "styleImagesBook"src="Images/H5.jpg"></a>
+		</div>
 	</div>
 
+	<div >
+		<h3 id="Title2">featured books</h3>
 
 
-	<div class="styleSearch">
-		<div>
-			<h1>Fremantle <br> City Library</h1>
-		</div>
-		  
+		<section class="book_list">
 
-		<div>
-			<input type="text" placeholder="Search..."> 	
-		</div>
+			<div class="book_item">
+                <h2>Harry Potter</h2>
+                <a href="BookDetails.html"><img class = "styleImages2"src="Images/H1.jpg"></a>
+                <p>Harry is impatiently awaiting the start of his third year at Hogwarts School of Witchcraft and Wizardry. After turning thirteen, alone and far from his Hogwarts friends, Harry gets into a fight with his mustachioed Aunt Marge, whom he turns into a balloon, and must escape on a magical bus.
 
-		<div>
-			<img src="Images/search.png">
-			<img class="StyleAccount" src="Images/account.png">
-		</div>
-	</div>
+Meanwhile, a terrible villain has escaped from Azkaban prison, Sirius Black, a serial killer with magical powers who was an accomplice of Lord Voldemort and who seems willing to eliminate Harry from the map. And if this were not enough, Harry must also face some terrible monsters, the Dementors, abominable beings capable of stealing the happiness of wizards and erasing all beautiful memories of those who dare to look at them.</p>
+            </div>
 
-	<div class="topnav" id="myTopnav">
-		<a href="FremantleLibrary.html" class="active">Home</a>
-		<a href="BookList.html">Book List</a>
-		<a href="#about">About Us</a>
-		<a href="ContactUs.html">Contact Us</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		 <i class="fa fa-bars"></i>
-		</a>
-	</div>
+            <div class="book_item">
+                <h2>The Complete Persepolis</h2>
+                <a href="BookDetails2.html"><img class = "styleImages2"src="Images/H2.jpg"></a>
+                <p>Persepolis is the story of Satrapi's unforgettable childhood and coming of age within a large and loving family in Tehran during the Islamic Revolution; of the contradictions between private life and public life in a country plagued by political upheaval; of her high school years in Vienna facing the trials of adolescence far from her family; of her homecoming—both sweet and terrible; and, finally, of her self-imposed exile from her beloved homeland. It is the chronicle of a girlhood and adolescence at once outrageous and familiar, a young life entwined with the history of her country yet filled with the universal trials and joys of growing up.</p>
+            </div>
 
-	<div class="form-Background">
+            <div class="book_item">
+                <h2>A Big Day's Knigth</h2>
+                <a href="BookDetails3.html"><img class = "styleImages2"src="Images/H3.jpg"></a>
+                <p>Five year old JJ Nowesh lives in a magic kingdom. It totally stinks. Not because of magic, or the kingdom, but because his Mom brings new dimensions to the word “mean.” But when JJ sneaks into the Court Wizard’s lab to magic his Mom nice, he accidentally BIG-ifies himself and his best friend Frilly. Can they save the day AND not get grounded for eternity? A laugh out loud fantasy adventure perfect for all ages.</p>
+            </div>
 
-		<div class="section-login1">
-			<h2 id="text-login">Login</h2>
+            <div class="book_item">
+                <h2>They both die at the end</h2>
+                <a href="BookDetails4.html"><img class = "styleImages2"src="Images/H4.jpg"></a>
+                <p>In the end they both die is a youth literature novel written by American author Adam Silvera and published on September 5, 2017, by HarperTeen. It is Silvera's third novel focused on two teenage boys, Mateo and Rufus, who discover that they only have one day to live.</p>
+            </div>
 
-			<form method="get" action="FremantleLibrary.html">
-	            <div class="form-group">
-	                <label for="email">Email</label>
-	                <input type="email" id="email" name="email">
-	            </div>
+            <div class="book_item">
+                <h2>Fairy Tale</h2>
+                <a href="BookDetails5.html"><img class = "styleImages2"src="Images/H5.jpg"></a>
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
 
-	            <div class="form-group">
-	                <label for="password">Password</label>
-	                <input type="password" id="password" name="password">
-	            </div>
+            <div class="book_item">
+                <h2>Book Title</h2>
+                <img class = "styleImages2"src="Images/H1.jpg">
+                <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            </div>
 
-	            <div>
-	            	<button type="submit" class="login-button">Login</button>
-	            </div>
-
-	            
-        	</form>
-			
-		</div>
-
-		<div class="section-login2">
-			<h3>I want to register</h3>
-            <button class="register-button">create an account</button>
-		</div>
-
-		
-
-
-		
-
+		</section>
 
 	</div>
-
 
 		
 		
 
 
 	<footer>
+
+
 		<div class="footer_container">
             <div class="footer_1">
                 Fremantle City Library
@@ -129,6 +123,8 @@
                 </ul>
             </div>
         </div>
+
+      
     </footer>
 
 
