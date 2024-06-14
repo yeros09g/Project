@@ -1,0 +1,476 @@
+header {
+    background: darkred;
+    color: #fff;
+    padding: 10px;
+}		
+
+
+.styleSocial{
+	background-color: darkred;
+	padding: 10px;
+}
+
+.styleSocial img{
+	height: 30px;
+	width: 30px;
+}
+
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding-inline-start: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.search-login input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-login button {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.search-login button img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-login a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+/* Styls Responsive */
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: column;
+    }
+
+    .bottom-bar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .search-login {
+        margin-top: 10px;
+    }
+
+    .search-login input {
+        width: calc(100% - 34px); /* Ajustar el tamaño del input en móviles */
+    }
+}
+
+
+		.styleSearch{
+
+			display: flex;
+			background-color: red;
+			height: 30px;
+			width: 100%;
+			align-items: center;
+		}
+
+		.styleSearch h1{
+			color: white;
+			margin-left: 15px;
+			font-family: 'Brush Script MT', cursive;
+			font color: white;
+			font-size: 1.5em;
+
+		}
+
+		
+
+		.box {
+			background-color: royalblue;
+		  display: flex;
+		  align-items: center;
+		}
+
+		.styleSearch button{
+			margin-left: 5px;
+			width: 30px;
+			height: 30px;
+		}
+
+		.styleSearch img{
+			width: 40px;
+			height: 40px;
+		}
+
+		.StyleAccount {
+			margin-left: 300px;
+			width: 40px;
+			height: 40px;
+
+		}
+
+
+
+		.styleBook{
+			background-image:  url("./Images/fd.png");
+			display: inline-block;
+
+			height: 100px;
+			width: 50px;
+
+		}
+
+		#ima{
+
+			height: 200px;
+			width: 80px;
+		}
+
+			
+
+
+
+		.styleBackground{
+			background-image:  url("./Images/backgroundS.jpg");
+			height: 300%;
+			text-align: center;
+
+		}
+
+
+		.styleImagesBook{
+
+			margin-top: 3%;
+			align-items: center;
+			padding: 10px;
+			height: 300px;
+			position: relative;
+
+		}
+
+		.styleImages2{
+
+			margin-top: 3%;
+			align-items: center;
+			padding: 10px;
+			height: 200px;
+			width: 110px;
+			position: relative;
+
+		}
+
+
+		.im{
+			margin-left: 10%;
+			top: 10%;
+			left: 8%;
+		}
+
+
+
+		#Title2 {
+			font-family: cursive;
+			font-style: italic;
+			font-size: 50px;
+			margin-top: 0;
+			
+			
+			
+			
+		}
+
+		.CointainerBooks{
+			width: 1000px;
+			background-color: pink;
+			text-align: center;
+			margin: auto;
+		}
+
+		#InternalTitle{
+			text-align: center;
+			align-items: center;
+			font-size: 30px;
+			font-family: cursive;
+			width: 100px;
+			height: 80px;
+			display: inline-block;
+		}
+
+		#h{
+			display: inline-block;
+			margin: 0;
+		}
+
+
+
+		.book_list {
+		    display: flex;
+		    flex-wrap: wrap;
+		    justify-content: space-around;
+		    padding: 20px;
+		}
+
+
+		.book_item {
+		    width: 30%;
+		    margin: 10px 0;
+		    background-color: #D3D3D3;
+		    padding: 10px;
+		    box-sizing: border-box;
+		}
+
+
+
+		footer {
+		    background: linear-gradient(to right, #800000, #B00000);
+		    color: white;
+		    padding: 20px 0;
+		}
+
+		.footer_container {
+		    display: flex;
+		    justify-content: space-between;
+		    align-items: center;
+		    max-width: 1200px;
+		    margin: 0 auto;
+		    padding: 0 20px;
+		}
+
+		.footer_1 {
+		    font-size: 3em;
+		    font-family: 'Brush Script MT', cursive;
+		}
+
+		.footer_2 ul {
+		    list-style-type: none;
+		    padding: 0;
+		    margin: 0;
+		}
+
+		.footer_2 ul li {
+		    margin: 5px 0;
+		}
+
+
+/*Styles Login*/
+
+
+.form-Background{
+	background-image:  url("./Images/backgroundS.jpg");
+	height: 300%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*max-width: 1200px;*/
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+
+
+
+.section-login1{
+	padding: 20px;
+	margin-top: 3%;
+	height: 300px;
+
+}
+
+.section-login1 h2{
+	align-content: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#text-login{
+	align-content: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.login-button {
+	margin-top: 50;
+	
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+
+}
+
+.section-login2{
+	text-align: center;
+	padding: 20px;
+
+
+}
+
+.register-button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.icon_contact{
+	width: 30px;
+	height: 30px;
+	overflow: unset;
+
+}
+
+#message {
+	height: 100px;
+}
+
+.section-1{
+	padding: 20px;
+	margin-top: 3%;
+	width: 30%;
+
+}
+
+
+
+
+
+/*Book List*/
+
+
+.container-table{
+	height: 300px;
+}
+
+.info-Table{
+	margin-top: 5%;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	border: 1px solid darkred;
+
+}
+
+.info-Table th{
+	border: 1px solid darkgray;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+.info-Table td{
+	border: 1px solid darkgray;	
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+
+.styleImagesLibrary{
+
+	margin-top: 3%;
+	align-items: center;
+	padding: 10px;
+	height: 200px;
+	position: relative;
+
+}
+
+
+
+.container-about{
+	padding: 16px ;
+}
+
+.section-text h2{
+	font color: darkred;
+}
+
+
+.detail-image{
+	display: flex;
+}
+
+.detail-title{
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 20px;
+}
+
+.detail-title h2{
+	font-family: Verdana;
+	font-size: 25px;
+}
+.container-DetailsBook{
+	padding: 30px;
+	width: 50%;
+}
+
+.section-text{
+	padding: 10px;
+}
+
+.section-text p{
+	text-align: justify;
+}
+
+
+
+
+

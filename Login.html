@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Fremantle Library </title>
+	
+	<link rel="stylesheet" href="LibraryStyles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<script type="text/javascript">
+
+
+		/*click on the icon humburger */
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+
+
+
+	</script>
+
+	<style  type="text/css">
+
+		
+
+
+
+
+	</style>
+</head>
+
+<body>
+
+	<div class="styleSocial">
+
+		<img src="Images/facebook.png">
+		<img src="Images/instagram.png">
+		<img src="Images/twitter.png">
+		
+	</div>
+
+
+
+	<div class="styleSearch">
+		<div>
+			<h1>Fremantle <br> City Library</h1>
+		</div>
+		  
+
+		<div>
+			<input type="text" placeholder="Search..."> 	
+		</div>
+
+		<div>
+			<img src="Images/search.png">
+			<img class="StyleAccount" src="Images/account.png">
+		</div>
+	</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="FremantleLibrary.html" class="active">Home</a>
+		<a href="BookList.html">Book List</a>
+		<a href="#about">About Us</a>
+		<a href="ContactUs.html">Contact Us</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		 <i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<div class="form-Background">
+
+		<div class="section-login1">
+			<h2 id="text-login">Login</h2>
+
+			<form method="get" action="FremantleLibrary.html">
+	            <div class="form-group">
+	                <label for="email">Email</label>
+	                <input type="email" id="email" name="email">
+	            </div>
+
+	            <div class="form-group">
+	                <label for="password">Password</label>
+	                <input type="password" id="password" name="password">
+	            </div>
+
+	            <div>
+	            	<button type="submit" class="login-button">Login</button>
+	            </div>
+
+	            
+        	</form>
+			
+		</div>
+
+		<div class="section-login2">
+			<h3>I want to register</h3>
+            <button class="register-button">create an account</button>
+		</div>
+
+		
+
+
+		
+
+
+	</div>
+
+
+		
+		
+
+
+	<footer>
+		<div class="footer_container">
+            <div class="footer_1">
+                Fremantle City Library
+            </div>
+
+            <div class="footer_2">
+                <ul>
+                    <li>Walyalup Civic Centre 151 High Street Fremantle WA 6160</li>
+                    <li>T 1300 MY FREO (1300 693 736)</li>
+                    <li>TTY (Teletypewriter) 08 9432 9777</li>
+                    <li>E info@fremantle.wa.gov.au</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+</html>
