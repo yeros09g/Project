@@ -5,32 +5,7 @@
 	
 	<link rel="stylesheet" href="LibraryStyles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<script type="text/javascript">
 
-
-		/*click on the icon humburger */
-		function myFunction() {
-		  var x = document.getElementById("myTopnav");
-		  if (x.className === "topnav") {
-		    x.className += " responsive";
-		  } else {
-		    x.className = "topnav";
-		  }
-		}
-
-
-
-	</script>
-
-	<style  type="text/css">
-
-		
-
-
-
-
-	</style>
 </head>
 
 <body>
@@ -45,31 +20,35 @@
 
 
 
-	<div class="styleSearch">
-		<div>
-			<h1>Fremantle <br> City Library</h1>
-		</div>
-		  
-
-		<div>
-			<input type="text" placeholder="Search..."> 	
+	<header>
+		<div class="styleSocial">
+			<img src="Images/facebook.png">
+			<img src="Images/instagram.png">
+			<img src="Images/twitter.png">
 		</div>
 
-		<div>
-			<img src="Images/search.png">
-			<img class="StyleAccount" src="Images/account.png">
-		</div>
-	</div>
+		<div class="styleSearch">
+            <div class="library-name">
+                <h1>Fremantle City Library</h1>
+            </div>
+        </div>
 
-	<div class="topnav" id="myTopnav">
-		<a href="FremantleLibrary.html" class="active">Home</a>
-		<a href="BookList.html">Book List</a>
-		<a href="#about">About Us</a>
-		<a href="ContactUs.html">Contact Us</a>
-		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		 <i class="fa fa-bars"></i>
-		</a>
-	</div>
+		<div class="bottom-bar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="BookList.html">Book List</a></li>
+                    <li><a href="AboutUs.html">About US</a></li>
+                    <li><a href="ContactUs.html">Contact US</a></li>
+                </ul>
+            </nav>
+            <div class="search-login">
+                <input type="text" placeholder="Search...">
+                <button type="button"><img src="Images/search.png" alt="Search"></button>
+                <a href="Login.html"><img src="Images/account.png" alt="User"></a>
+            </div>
+        </div>
+	</header>
 
 	<div class="form-Background">
 
